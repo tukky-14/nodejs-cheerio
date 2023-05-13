@@ -14,7 +14,7 @@ const fetchData = async () => {
       const title = $(this).find("h5").text();
       const url = $(this).find("a").attr("href");
 
-      console.log(`${title}\nhttps://tukkytech/${url}\n`);
+      console.log(`${title}\nhttps://tukkytech.com${url}\n`);
     });
 };
 
